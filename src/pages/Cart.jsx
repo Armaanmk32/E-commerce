@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import Price from "../Components/Price"
 import { calculateTotalPrice, removeItemFromCart } from "../Redux/reduce/cart"
-import toast from "react-hot-toast"
+import toast,{Toaster} from "react-hot-toast"
 function Cart(){
     const dispatch = useDispatch()
     const allItems =useSelector((state)=> state.cart.items)
@@ -45,11 +45,11 @@ function Cart(){
 
 
         
-
+        <Toaster/>
         
     
 
-
+        
 
 
 

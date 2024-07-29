@@ -33,7 +33,7 @@ function Header({searching}){
             <input onChange={searching} className="bg-primeryColor w-[140px] mr-6 sm:w-[300px] absolute right-16 top-7  sm:p-1 rounded-full text-secondryColor" type="text"placeholder="searching" />
         </form>
         <Link to="/Cart">
-        <i style={{display: menu == true ? "block" : ""}}  class="fa-brands sm:text-4xl text-2xl ml-2 sm:flex hidden sm:right-2 top-7  absolute    fa-shopify">{numberOfItems.length}</i>
+        <i style={{display: menu == true ? "block" : ""}}  class="fa-brands sm:text-4xl text-2xl ml-2 sm:flex hidden sm:right-2 sm:top-7  absolute    fa-shopify">{numberOfItems.length}</i>
         </Link>
         <button>
 
